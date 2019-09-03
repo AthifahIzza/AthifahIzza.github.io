@@ -1,0 +1,154 @@
+body { 
+    background-color:rgb(219, 174, 91);
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:active {
+    color: blue;
+}
+
+a:hover {
+    color: burlywood;
+    background-color: sienna;
+}
+a:visited {
+    color: black;
+}
+
+.container {
+    width: 90%;
+    overflow: auto;
+    margin: 10px auto;
+    
+}
+/*Debug Aid: BEGIN */
+.bg-cadet {
+    background-color: bisque;
+}
+
+/*Debug Aid: END */
+
+.logo {
+    text-align: center;
+}
+
+.menu-primer ul {
+    background-color: bisque ;
+    border-radius: 4px
+}
+
+.menu-primer li {
+    display: inline-block;
+    box-shadow: 
+        0 3px 5px -1px rgba (0, 0, 0, 0.2),
+        0 6px 10px 0 rgba(0, 0, 0, 0.14),
+        0 1px 18px 0 rgba (0, 0, 0, 0.12);
+}
+
+.menu-primer li {
+    display: inline-block;
+}
+
+.menu-primer a {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 10px;
+    letter-spacing: 1px;
+}
+
+.menu-primer a:hover {
+    background-color: burlywood;
+    color: sienna;
+}
+
+.menu-primer .active {
+    background-color: tan;
+    color: sienna;
+}
+
+.jumbotron {
+    background-color: blanchedalmond;
+    border: solid 2px black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.jumbotron h2 {
+    margin: 4px 20px;
+    font-size: 16 px;
+}
+
+.jumbotron h3 {
+    margin: 4px 20px;
+    font-size: 16 px;
+}
+
+.copyright p {
+    font-size: 14px;
+}
+
+/*Footer Box: Begin*/
+.container-full {
+    background-color: burlywood;
+}
+.footer-box {
+    width: 33.3%;
+    float: left;
+}
+.footer-box ul{
+   padding: 0px;
+}
+.footer-box li {
+   padding: 2px 0px;
+}
+.footer-box img{
+    vertical-align: middle;
+}
+
+.footer-box {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/*Footer Box: End*/
+
+/*Box : Begin*/
+.box2-left {
+    width: 49.5%;
+    float: left;
+}
+.box2-right {
+    width: 49.5%;
+    float: right;
+}
+.box-heading {
+    border: solid 1px brown;
+    background-color: sandybrown;
+    border-radius: 0px 4px;
+    padding: 15px 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.box-heading h3 {
+    margin: 0px;
+}
+
+.box-content {
+    border: solid 1px brown);
+    border-top: 0;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.box-fixed {
+    height: 130px;
+}
+/*Box : End*/
