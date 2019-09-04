@@ -1,5 +1,5 @@
 body { 
-    background-color:rgb(219, 174, 91);
+    background-color:rgb(247, 235, 216);
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
 
 a{
     text-decoration: none;
-    color: black;
+    color:brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -31,7 +31,7 @@ a:visited {
 }
 /*Debug Aid: BEGIN */
 .bg-cadet {
-    background-color: bisque;
+    background-color: rgb(85, 66, 42);
 }
 
 /*Debug Aid: END */
@@ -41,7 +41,7 @@ a:visited {
 }
 
 .menu-primer ul {
-    background-color: bisque ;
+    background-color: rgb(141, 114, 80) ;
     border-radius: 4px
 }
 
@@ -72,11 +72,12 @@ a:visited {
 .menu-primer .active {
     background-color: tan;
     color: sienna;
+    cursor: default;
 }
 
 .jumbotron {
-    background-color: blanchedalmond;
-    border: solid 2px black;
+    background-color: rgba(240, 194, 142, 0.973);
+    border: solid 2px brown;
     border-radius: 8px;
     padding: 10px;
 }
@@ -97,7 +98,7 @@ a:visited {
 
 /*Footer Box: Begin*/
 .container-full {
-    background-color: burlywood;
+    background-color: rgb(141, 114, 80) ;
 }
 .footer-box {
     width: 33.3%;
@@ -130,11 +131,11 @@ a:visited {
 }
 .box-heading {
     border: solid 1px brown;
-    background-color: sandybrown;
-    border-radius: 0px 4px;
-    padding: 15px 20px;
-    margin: 0;
-    text-transform: uppercase;
+    background-color: rgba(240, 194, 142, 0.973);
+    border-radius: 0px 5px;
+    padding: 10px 20px;
+    margin: 0px;
+    text-transform: unset;
 }
 
 .box-heading h3 {
@@ -142,13 +143,20 @@ a:visited {
 }
 
 .box-content {
-    border: solid 1px brown);
+    border: solid 1px brown;
     border-top: 0;
     margin: 0;
     padding: 10px 0px;
+    text-align: justify;
 }
 
 .box-fixed {
-    height: 130px;
+    height: 160px;
 }
 /*Box : End*/
+
+.box-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
